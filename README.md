@@ -15,7 +15,7 @@
 </a>
 
 [한국어🇰🇷](./README.ko.md)
-[English](./README.en.md)
+[English🇺🇸](./README.en.md)
 
 ![screenshot](./assets/screenshot.png)
 
