@@ -21,8 +21,11 @@ export const SocialShare = ({ title, author }) => {
 
   return (
     <div className="social-share">
-      <FacebookIcon onClick={onClickFacebookIcon} />
-      <TwitterIcon onClick={onClickTwitterIcon} />
+      <br />
+      {/*
+        <FacebookIcon onClick={onClickFacebookIcon} />
+        <TwitterIcon onClick={onClickTwitterIcon} />
+      */}
     </div>
   )
 }
