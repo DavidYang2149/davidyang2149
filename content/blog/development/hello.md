@@ -92,7 +92,7 @@ Set, `buyMeACoffeeId` of `gatsby-meta-config.js`
 
 You can add comments feature by selecting one of them.
 
-- [ ] Disqus
+- [x] Disqus
 - [ ] utterances
 
 ## 8. Support latex
