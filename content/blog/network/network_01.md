@@ -1,5 +1,5 @@
 ---
-title: network_01
+title: Network_01
 date: 2020-07-25 11:07:60
 category: network
 thumbnail: './images/network_01.png'

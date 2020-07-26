@@ -2,8 +2,11 @@
 title: Docker_Setting_MongoDB
 date: 2020-07-24 21:07:21
 category: docker
+thumbnail: './images/docker_mongo.png'
 draft: false
 ---
+
+![](./images/docker_mongo.png)
 
 # Docker Setting for MongoDB 🥭
 
@@ -81,4 +84,4 @@ $ docker start mongodb
 $ docker exec -it mongodb /bin/bash
 ```
 
-이 후 MongoDB를 사용하면 된다. 👋
+👋 이제 MongoDB를 사용하면 된다.
