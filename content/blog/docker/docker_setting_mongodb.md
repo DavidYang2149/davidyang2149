@@ -26,7 +26,7 @@ $ docker pull mongo
 
 Mongo 이미지 다운로드가 완료되면 MongoDB 컨테이너를 만들어 보자.
 
-> `예시 설정` : 포트번호 - 3306 / 접속 비밀번호 - mariadb
+> `예시 설정` : 포트번호 - 37017 / 접속 비밀번호 - mongodb
 
 ```sh
 # Docker - MongoDB Container Create
