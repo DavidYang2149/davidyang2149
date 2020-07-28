@@ -5,6 +5,8 @@ require('typeface-catamaran')
 // polyfill
 require('intersection-observer')
 
+// require('prismjs/plugins/line-numbers/prism-line-numbers.css')
+
 const metaConfig = require('./gatsby-meta-config')
 
 exports.onInitialClientRender = () => {

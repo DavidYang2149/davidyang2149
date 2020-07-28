@@ -91,7 +91,7 @@ const fn = num => {
 
 `javascript`로 해당 예시를 보자.
 
-```js{}
+```js{1}
 // f(n)과 g(n)이 합해지는 예시
 const fnAddGn = num => {
   let count = 0
