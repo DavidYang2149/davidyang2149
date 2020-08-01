@@ -1,5 +1,5 @@
 ---
-title: next.js_01
+title: Next.js_01
 date: 2020-08-01 10:08:62
 category: react
 thumbnail: './images/nextJs_title.png'
@@ -22,3 +22,5 @@ draft: false
 * https://github.com/grotesq(깃헙)
 * 작업 설정(mac 기준)
 * homebrew(https://brew.sh/index_ko):
+
+- react의 설명
