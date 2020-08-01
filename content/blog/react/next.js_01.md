@@ -32,4 +32,5 @@ draft: true
 - npm run start: 스타트 후에 수정된 내용은 build를 해야 새로운 내용이 반영된다.
 
 - PORT 변경 방법: 터미널에서 > PROT=1234 npm run dev **혹은** package.json에서 "dev" : "next dev -p 1234"로 수정 **또는** next dev -p \${PORT}
-- 위 방법 중 추천 방법 cross-env를 이용 / 터미널에서 npm i -D cross-env
+- 위 방법 중 추천 방법 cross-env를 이용 / 터미널에서 npm i -D cross-env 설치 이후 package.json에서 "dev" : "cross-env next dev -p \${PORT-1234}"로 설정하자
+-
