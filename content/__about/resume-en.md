@@ -6,8 +6,24 @@ lang: 'en'
 
 # David Yang
 
-<div align="center">
+안녕하세요.
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+David Yang입니다.
 
-</div>
+해당 블로그는 제가 공부하고 배운 것들을 기록하기 위한 곳입니다.
+
+## 교육
+
+- XX 개발원 수료
+
+## 자격
+
+- 정보처리기사
+
+## 경력
+
+- XXXXXX / PM업무 투입
+
+## 프로젝트
+
+- 프로젝트
