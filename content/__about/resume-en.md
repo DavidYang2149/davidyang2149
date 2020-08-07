@@ -4,7 +4,7 @@ date: 2020-7-23 12:20:13
 lang: 'en'
 ---
 
-# David Yang.
+# David Yang
 
 안녕하세요.
 
@@ -18,7 +18,7 @@ David Yang입니다.
 | Github |  https://github.com/DavidYang2149  |
 |  Blog  | https://davidyang2149.netlify.app/ |
 
-## Skills.
+## Skills
 
 - FrontEnd
 
@@ -43,7 +43,7 @@ David Yang입니다.
   - Git, Bitbucket (현장 업무에서 사용)
   - Docker (개인 공부)
 
-## Career.
+## Career
 
 - IT기업 A회사 근무 (2018.03 ~ 2020.03)
   - 파견사 B사 / **PM 업무** 투입 (2018.03 ~ 2020.03)
@@ -51,17 +51,17 @@ David Yang입니다.
     - 협업 툴 : JIRA, Confluance, Bitbucket
     - 업무내역 : 페이지 리뉴얼, DB 마이그레이션, 이벤트 페이지 처리
 
-## Project.
+## Project
 
 - 개인 프로젝트
 
-## Education.
+## Education
 
 - XX 개발원 수료 (2017.04 ~ 2017.12)
   - HTML, CSS, Javascript
   - Java, JSP, Spring 4.0
   - Oracle 11g
 
-## Certification.
+## Certification
 
 - 정보처리기사 (2019.11)

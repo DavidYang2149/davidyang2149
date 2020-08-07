@@ -14,7 +14,7 @@ draft: false
 
 - MacOS 기준 / Docker 설치
 
-## 02. Maria 이미지 다운로드 & 설정.
+## 02. Maria 이미지 다운로드 & 설정
 
 터미널에 접속하여 Docker에 MariaDB image 다운로드 하기.
 
@@ -80,7 +80,7 @@ $ docker start mariadb
 $ docker exec -it mariadb /bin/bash
 ```
 
-## 04. bash에서 MariaDB 설정하기.
+## 04. bash에서 MariaDB 설정하기
 
 `bash`에서 mariadb 설정해보자.
 
@@ -130,7 +130,7 @@ character-set-server = utf8mb4
 $ docker restart mariadb
 ```
 
-## 05. MariaDB 설정 확인하기.
+## 05. MariaDB 설정 확인하기
 
 `bash`에서 mariadb로 접속
 컨테이너 설정 때 입력한 **비밀번호**로 접속하자.

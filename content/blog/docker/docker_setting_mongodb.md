@@ -14,7 +14,7 @@ draft: false
 
 - MacOS 기준 / Docker 설치
 
-## 02. Mongo 이미지 다운로드 & 설정.
+## 02. Mongo 이미지 다운로드 & 설정
 
 터미널에 접속하여 Docker에 MongoDB image 다운로드 하기.
 
@@ -61,7 +61,7 @@ $ docker ps -a
 # 263242sam919  |  mongo  |  "docker…"  |  1 weeks ago  |  Up 6 hours  |  37017->27017/tcp | mongodb
 ```
 
-## 03. 도커 컨테이너 설정하기.
+## 03. 도커 컨테이너 설정하기
 
 Mongo 컨테이너 상태 확인 후 종료되어 있다면 작동시키기.
 

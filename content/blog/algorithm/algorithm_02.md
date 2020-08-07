@@ -14,7 +14,7 @@ draft: false
 
 자바스크립트로 알고리즘을 공부하기 위해 자바스크립트만의 독특한 특징을 정리한다.
 
-## 01. 자바스크립트의 범위.
+## 01. 자바스크립트의 범위
 
 범위(`scope`)는 자바스크립트 변수에 대한 접근 권한을 정의하는 것이다.
 
@@ -69,7 +69,7 @@ console.log(bar) // "ReferenceError: bar is not defined"
 
 `let`은 지역 변수로서 값이 변경이 가능하고, `const`는 한번 선언된 값을 변경할 수 없다.
 
-## 02. 등가(Equal)와 형(Type).
+## 02. 등가(Equal)와 형(Type)
 
 변수는 기본형(primitive)과 참조형(reference)으로 구분된다.
 
