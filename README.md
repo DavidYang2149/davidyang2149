@@ -1,8 +1,7 @@
 Written by @DavidYang2149  
-Powered by Gatsby-davidyang2149-blog  
+Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
 Page Address - https://davidyang2149.netlify.app/
 
-Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
 How to Use Gatsby-Blog  
 [한국어🇰🇷](./README.ko.md)  
 [English🇺🇸](./README.en.md)
