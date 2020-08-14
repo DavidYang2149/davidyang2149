@@ -45,4 +45,7 @@ draft: true
 
 - 다음주 next.js 과제
 - vercel 무료 배포 가능(해당 페이지에 배포 예정 - 그러므로 가입해보기)
--
+
+- [영화API](https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do)
+- [프로그래스 바](http://ricostacruz.com/nprogress/)
+- [결과](https://box-office.davidyang2149.vercel.app/)
