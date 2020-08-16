@@ -16,7 +16,7 @@ draft: false
 
 ## 02. Mongo 이미지 다운로드 & 설정
 
-터미널에 접속하여 Docker에 MongoDB image 다운로드 하기.
+터미널에 접속하여 Docker에 MongoDB image 내려받기.
 
 ```sh
 # Docker - MongoDB image Download
@@ -26,7 +26,7 @@ $ docker pull mongo
 
 Mongo 이미지 다운로드가 완료되면 MongoDB 컨테이너를 만들어 보자.
 
-> `예시 설정` : 포트번호 - 37017 / 접속 비밀번호 - mongodb
+> `예시 설정` : 포트 번호 - 37017 / 접속 비밀번호 - mongodb
 
 ```sh
 # Docker - MongoDB Container Create
@@ -45,8 +45,8 @@ mongo --auth
 > **-d** : 데몬으로 실행  
 > **-p** : {도커 컨테이너 외부}:{도커 컨테이너 내부} port(포트)  
 > **-v** : {도커 컨테이너 외부}:{도커 컨테이너 내부} volume(저장소)  
-> **--restart** : 도커 서버 구동시 재시작 여부  
-> **🚨주의** : 내부포트 접속시에 27017로 설정해야 한다. (MongoDB의 기본 포트값)
+> **--restart** : 도커 서버 구동 시 재시작 여부  
+> **🚨주의** : 내부 포트 접속 시에 27017로 설정해야 한다. (MongoDB의 기본 포트값)
 
 ✅ 이후 컨테이너가 정상적으로 올라갔는지 체크.
 

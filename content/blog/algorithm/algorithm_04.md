@@ -26,14 +26,14 @@ draft: false
 'cat'.charAt(1) // "a"를 반환한다.
 ```
 
-`.charAt(index)`는 0부터 시작하여 해당 위치의 인덱스 값을 리턴한다.
+`.charAt(index)`는 0부터 시작하여 해당 위치의 인덱스 값을 한다.
 
 또한 지정한 인덱스 사이의 문자들을 반환하는 `.subString(startIndex, endIndex)`를 사용할 수 있다.
 
 ```js{}
 'superCat'.substring(1, 2) // "u"를 반환한다.
 'superCat'.substring(5, 8) // "Cat"를 반환한다.
-'superCat'.substring(1) // "uperCat" 두번째 매개변수(endIndex)를 전달하지 않으면 시작 위치부터 끝까지 값을 반환한다.
+'superCat'.substring(1) // "uperCat" 두 번째 매개변수(endIndex)를 전달하지 않으면 시작 위치부터 끝까지 값을 반환한다.
 ```
 
 ### 01-02. 문자열 비교
@@ -54,7 +54,7 @@ const secondWord = 'b'
 console.log(firstWord < secondWord) // 'true'를 반환한다.
 ```
 
-여기서 **'able'의 'a'**와 **'b'**가 서로 비교 되어 secondword가 더 큰 것이 된다.
+여기서 **'able'의 'a'**와 **'b'**가 서로 비교되어 secondword가 더 큰 것이 된다.
 
 ### 01-03 문자열 검색
 
@@ -74,9 +74,9 @@ console.log(firstWord < secondWord) // 'true'를 반환한다.
 
 문자열을 나누기 위해서는 `split(separator[, limit])`를 사용할 수 있다.
 
-반환값은 Array가 되며 `separator`를 기준으로 분리하여 배열로 만들어 준다(`separator`값은 사라진다).
+반환 값은 Array가 되며 `separator`를 기준으로 분리하여 배열로 만들어 준다(`separator`값은 사라진다).
 
-`[, limit]`는 시작을 기준으로 몇개의 Array값을 만들지 결정한다(1부터 시작).
+`[, limit]`는 시작을 기준으로 몇 개의 Array값을 만들지 결정한다(1부터 시작).
 
 ```js{}
 const tasteWord = 'chocolate-Cookie'
@@ -104,7 +104,7 @@ changeWord.('hate', 'love') // 'I love chocolate'을 출력한다.
 `RegExp`에는 다음과 같은 함수가 있다.
 
 - `search()` : 문자열 내에 일치하는 문자열을 찾는다. 일치하는 문자열의 인덱스를 반환한다.
-- `match()` : 첫번쨰로 일치하는 문자열을 찾는다. 첫번째로 일치하는 문자열(Array)을 반환한다.
+- `match()` : 첫 번쨰로 일치하는 문자열을 찾는다. 첫 번째로 일치하는 문자열(Array)을 반환한다.
 - `matchAll()` : 일치하는 문자열을 찾는다. 일치하는 문자열(Array)을 반환한다.
 
 ```js{}

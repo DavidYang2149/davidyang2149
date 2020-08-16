@@ -23,7 +23,7 @@ draft: false
 
 > 알고리즘의 시간 복잡도를 $\mathcal{f}(n)$으로 표현한다고 가정.  
 > 여기서 $n$은 입력의 개수.  
-> $\mathcal{f}(n)$의 값은 소요 시간과 소요 공간(메모리)를 의미.
+> $\mathcal{f}(n)$의 값은 소요 시간과 소요 공간(메모리)을 의미.
 
 1. 계수 법칙  
    상수 $k$가 $0$보다 클 때, $\mathcal{f}(n)$이 $\mathcal{O}(g(n))$이면, $\mathcal{kf}(n)$는 $\mathcal{O}(g(n))$이다.
@@ -49,7 +49,7 @@ draft: false
 
 예를 들어 $3\mathcal{f}(n)$과 $\mathcal{f}(n)$는 모두 동일한 $\mathcal{O}(g(n))$인 빅오 표기법을 가지게 된다.
 
-`javascript`로 해당 예시를 구현해보자.
+`Javascript`로 해당 예시를 구현해보자.
 
 ```js{1}
 // 3f(n)의 예시
@@ -77,8 +77,8 @@ const fn = num => {
 
 다음 코드는 $\mathcal{f}(n)=n$이다.
 
-이 때 상수 $k$`(여기서는 상수 k=3)`는 코드 실행 횟수($n$)에 영향을 주지 않는다.  
-그러므로 상수 값이 무시되어 $\mathcal{kf}(n)$는 $\mathcal{O}(g(n))$는 서로 동일하게 된다.
+이때 상수 $k$`(여기서는 상수 k=3)`는 코드 실행 횟수($n$)에 영향을 주지 않는다.  
+그러므로 상숫값이 무시되어 $\mathcal{kf}(n)$는 $\mathcal{O}(g(n))$는 서로 동일하게 된다.
 
 ### 02-02. 합의 법칙 - 빅오를 더하라
 
@@ -89,7 +89,7 @@ const fn = num => {
 > $\mathcal{f}(n)$이 $\mathcal{O}(h(n))$이고 $\mathcal{g}(n)$이 $\mathcal{O}(p(n))$이면 $\mathcal{f}(n) + \mathcal{g}(n)$은  
 > $\mathcal{O}(h(n) + p(n))$이다.
 
-`javascript`로 해당 예시를 보자.
+`Javascript`로 해당 예시를 보자.
 
 ```js{1}
 // f(n)과 g(n)이 합해지는 예시
@@ -112,8 +112,8 @@ const fnAddGn = num => {
 다음 함수`fnAddGn`의 경우, $f(n)=3n$과 $g(n)=6n$ 두 가지가 실행되어 9n이 된다.  
 하지만 계수의 법칙을 적용하면 $\mathcal{O}(n)=n$이 된다.
 
-이 때 상수 $k$`(여기서는 상수 k=3)`는 코드 실행 횟수($n$)에 영향을 주지 않는다.  
-그러므로 상수 값이 무시되어 $\mathcal{kf}(n)$는 $\mathcal{O}(g(n))$는 서로 동일하게 된다.
+이때 상수 $k$`(여기서는 상수 k=3)`는 코드 실행 횟수($n$)에 영향을 주지 않는다.  
+그러므로 상숫값이 무시되어 $\mathcal{kf}(n)$는 $\mathcal{O}(g(n))$는 서로 동일하게 된다.
 
 ### 02-03. 곱의 법칙 - 빅오를 곱하라
 
@@ -124,7 +124,7 @@ const fnAddGn = num => {
 > $\mathcal{f}(n)$이 $\mathcal{O}(h(n))$이고 $\mathcal{g}(n)$이 $\mathcal{O}(p(n))$이면 $\mathcal{f}(n) * \mathcal{g}(n)$은  
 > $\mathcal{O}(h(n)p(n))$이다.
 
-역시 `javascript`로 예시를 보자.
+역시 `Javascript`로 예시를 보자.
 
 ```js{1}
 // 곱의 법칙 예시
@@ -151,11 +151,11 @@ const multiplyFn = num => {
 
 ---
 
-다항 법칙은 다항 시간 복잡도가 동일한 다항 차수를 지닌 빅오 표기법을 지닌다는 뜻이다.
+다항 법칙은 다항 시간 복잡도가 같은 다항 차수를 지닌 빅오 표기법을 지닌다는 뜻이다.
 
 > $\mathcal{f}(n)$이 $k$차 다항식이면 $\mathcal{f}(n)$은 $\mathcal{O}(n^k)$이다.
 
-`javascript`로 예시를 보자.
+`Javascript`로 예시를 보자.
 
 ```js{1}
 // 곱의 법칙 예시
@@ -171,13 +171,13 @@ const multiplyFn = num => {
 ```
 
 다음 함수`multiplyFn`의 경우, $f(n)=n^3$이 된다.  
-num \* num \* num회가 실행되기 떄문이다.
+num \* num \* num회가 실행되기 때문이다.
 
 ### 02-05. 정리
 
 ---
 
-빅오는 알고리즘의 효율을 분석하는데 중요하다.
+빅오는 알고리즘의 효율을 분석하는 데 중요하다.
 
 각 코드를 분석하여 빅오 표기법으로 단순화하기 위해 상단의 법칙들을 잘 적용하자.
 
