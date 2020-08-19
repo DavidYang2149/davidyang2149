@@ -2,10 +2,11 @@
 
 [![Davidyang's github stats](https://github-readme-stats.vercel.app/api?username=davidyang2149)](https://github.com/DavidYang2149/github-readme-stats)
 
-**Tech-Blog Inform**
-Written by @DavidYang2149  
-Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
+**Tech-Blog Information**
+
 Page Address - https://davidyang2149.netlify.app/
+Written by @DavidYang2149  
+Origin by https://github.com/JaeYeopHan/gatsby-starter-bee
 
 How to Use Gatsby-Blog  
 [한국어🇰🇷](./README.ko.md)  
