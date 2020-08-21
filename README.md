@@ -15,7 +15,7 @@
 ## [DavidYang's Tech-Blog](https://davidyang2149.netlify.app)
 
 Page Address - https://davidyang2149.netlify.app/  
-Origin by https://github.com/JaeYeopHan/gatsby-starter-bee
+Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
 Written by @DavidYang2149
 
 How to Use Gatsby-Blog  
