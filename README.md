@@ -2,7 +2,19 @@
 
 [![Davidyang's github stats](https://github-readme-stats.vercel.app/api?username=davidyang2149&theme=calm&show_icons=true)](https://github.com/DavidYang2149/github-readme-stats)
 
-**[DavidYang's Tech-Blog Information](https://davidyang2149.netlify.app)**
+## Hello World! I'm DavidYang2149
+
+🕹️ [Front-end] React, Redux, jQuery.
+
+💻 [Back-end] Node.js, Express, ASP.NET, Spring 4.0.
+
+📚 [Language] Javascript, Java, C#.
+
+📚 [DB] Oracle 11g, MSSQL.
+
+🖨️ [DevOps] Git, Bitbucket, JIRA, Confluance, Docker.
+
+## [DavidYang's Tech-Blog Information](https://davidyang2149.netlify.app)
 
 Page Address - https://davidyang2149.netlify.app/  
 Written by @DavidYang2149  

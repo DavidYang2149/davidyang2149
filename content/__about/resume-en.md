@@ -20,13 +20,13 @@ David Yang입니다.
 
 ## Skills
 
-- FrontEnd
+- Front-end
 
   - HTML, CSS (교육 과정시 습득)
   - Javascript, jQuery (현장 업무에서 사용)
   - React, Redux (개인 공부)
 
-- BackEnd
+- Back-end
 
   - Java, Spring 4.0 (교육 과정시 습득)
   - C#, ASP.NET (현장 업무에서 사용)
