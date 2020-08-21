@@ -41,6 +41,7 @@ David Yang입니다.
 - DevOps
 
   - Git, Bitbucket (현장 업무에서 사용)
+  - JIRA, Confluance (현장 업무에서 사용)
   - Docker (개인 공부)
 
 ## Career
