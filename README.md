@@ -6,13 +6,13 @@
 
 ## Hello World! I'm DavidYang2149
 
-🕹️ **[Front-end]** React, Redux, jQuery.
-💻 **[Back-end]** Node.js, Express, ASP.NET, Spring 4.0.
-📚 **[Language]** Javascript, Java, C#.
-📚 **[DB]** Oracle 11g, MSSQL.
+🕹️ **[Front-end]** React, Redux, jQuery.  
+💻 **[Back-end]** Node.js, Express, ASP.NET, Spring 4.0.  
+📚 **[Language]** Javascript, Java, C#.  
+📚 **[DB]** Oracle 11g, MSSQL.  
 🖨️ **[DevOps]** Git, Bitbucket, JIRA, Confluance, Docker.
 
-## [DavidYang's Tech-Blog Information](https://davidyang2149.netlify.app)
+## [DavidYang's Tech-Blog](https://davidyang2149.netlify.app)
 
 Page Address - https://davidyang2149.netlify.app/  
 Origin by https://github.com/JaeYeopHan/gatsby-starter-bee
