@@ -6,10 +6,9 @@
 
 ## Hello World! I'm DavidYang2149
 
-🕹️ **[Front-end]** React, Redux, jQuery.  
+🕹️ **[Front-end]** Javascript, React, Redux, jQuery.  
 💻 **[Back-end]** Node.js, Express, ASP.NET, Spring 4.0.  
-📚 **[Language]** Javascript, Java, C#.  
-📚 **[DB]** Oracle 11g, MSSQL.  
+📚 **[DB]** Oracle 11g, MS-SQL.  
 🖨️ **[DevOps]** Git, Bitbucket, JIRA, Confluance, Docker.
 
 ## [DavidYang's Tech-Blog](https://davidyang2149.netlify.app)
