@@ -9,6 +9,7 @@ import { PostDate } from '../components/post-date'
 import { PostContainer } from '../components/post-container'
 import { SocialShare } from '../components/social-share'
 import { SponsorButton } from '../components/sponsor-button'
+import { KakaoSponsorButton } from '../components/kakao-sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
@@ -47,6 +48,7 @@ export default ({ data, pageContext, location }) => {
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
       )}
+      <KakaoSponsorButton />
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
