@@ -18,13 +18,13 @@ draft: false
 
 그런데 해당 개념을 숙지한 후에 npm에서 라이브러리를 받으려고 했는데 두 가지가 존재했다.
 
-바로 [`Immer`](https://immerjs.github.io/immer/docs/introduction)와 [`Immutable`](https://immutable-js.github.io/immutable-js/)이다.
+바로 [`Immer`](https://immerjs.github.io/immer/docs/introduction)와 [`Immutable`](https://immutable-js.github.io/immutable-js)이다.
 
 # Immer vs Immutable 😃
 
-[`Immer`](https://immerjs.github.io/immer/docs/introduction)와 [`Immutable`](https://immutable-js.github.io/immutable-js/) 두 개의 라이브러리의 차이점이 있을까?
+[`Immer`](https://immerjs.github.io/immer/docs/introduction)와 [`Immutable`](https://immutable-js.github.io/immutable-js) 두 개의 라이브러리의 차이점이 있을까?
 
-김나람 강사님께 문의를 드려 [답변](https://github.com/grotesq/codelab-next-js-3rd/issues/2)을 받았다.
+김나람 강사님께 문의를 드려 답변을 받았다([Answer](https://github.com/grotesq/codelab-next-js-3rd/issues/2)).
 
 목적은 같지만 두 라이브러리의 구현 방향에서 차이점을 보인다.
 
