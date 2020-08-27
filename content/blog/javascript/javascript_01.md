@@ -3,7 +3,7 @@ title: Javascript_01
 date: 2020-08-26 15:08:37
 category: javascript
 thumbnail: './images/javascript.png'
-draft: false
+draft: true
 ---
 
 ![](./images/javascript.png)
