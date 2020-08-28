@@ -37,8 +37,8 @@ draft: false
 이때 부동소수점으로 인한 오류가 발생하게 되는데, 이에 대한 예시로 자주 나타나는 경우가 있다.
 
 ```js{1}
-0.1 + 0.2 === 0.3 // "false"
-0.1 + 0.2 // 0.30000000000000004
+0.1 + 0.2 === 0.3; // "false"
+0.1 + 0.2; // 0.30000000000000004
 ```
 
 위의 이유를 이해하기 위해서는 이진 표기법으로 십진수를 표현하는 것을 알아야 한다.
@@ -54,19 +54,19 @@ draft: false
 **자바스크립트 숫자 객체**에서 제공하는 속성들을 사용하여 문제를 해결할 수 있다.
 
 ```js{}
-Math.floor // 정수로 내림
-Math.round // 정수로 반올림
-Math.ceil // 정수로 올림
+Math.floor; // 정수로 내림
+Math.round; // 정수로 반올림
+Math.ceil; // 정수로 올림
 
 // Example
-Math.floor(0.5) // 0
-Math.floor(0.4) // 0
+Math.floor(0.5); // 0
+Math.floor(0.4); // 0
 
-Math.round(0.5) // 1
-Math.round(0.4) // 0
+Math.round(0.5); // 1
+Math.round(0.4); // 0
 
-Math.ceil(0.5) // 1
-Math.ceil(0.4) // 1
+Math.ceil(0.5); // 1
+Math.ceil(0.4); // 1
 ```
 
 또한 `Number.EPSILON`을 사용하는 방법이 있다.
@@ -74,13 +74,13 @@ Math.ceil(0.4) // 1
 이것은 두 개의 표현 가능한 숫자 사이의 가장 작은 간격을 반환하는데, 이를 이용하여 아까의 문제를 해결할 수 있다.
 
 ```js{1, 7}
-0.1 + 0.2 === 0.3 // "false"
+0.1 + 0.2 === 0.3; // "false"
 
 const numberMatch = (firstNumber, secondNumber) => {
-  return Math.abs(firstNumber - secondNumber) < Number.EPSILON
-}
+  return Math.abs(firstNumber - secondNumber) < Number.EPSILON;
+};
 
-numberMatch(0.1 + 0.2, 0.3) // "true"
+numberMatch(0.1 + 0.2, 0.3); // "true"
 ```
 
 ---
@@ -95,14 +95,14 @@ numberMatch(0.1 + 0.2, 0.3) // "true"
 
 ```js{}
 //  Number.MAX_SAFE_INTEGER는 가장 큰 정수를 말한다.
-Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2 // "true"
+Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2; // "true"
 // 최댓값 정수를 소수와 비교할 시에는 정상적으로 작동한다.
-Number.MAX_SAFE_INTEGER + 1.234 === Number.MAX_SAFE_INTEGER + 2.234 // "false"
+Number.MAX_SAFE_INTEGER + 1.234 === Number.MAX_SAFE_INTEGER + 2.234; // "false"
 
 // Number.MAX_VALUE는 가장 큰 부동 소수점을 말한다.
-Number.MAX_VALUE + 1.234 === Number.MAX_VALUE + 2.234 // "true"
+Number.MAX_VALUE + 1.234 === Number.MAX_VALUE + 2.234; // "true"
 // 반대로 최댓값 부동소수를 비교해도 비정상적인 결과가 나온다.
-Number.MAX_VALUE + 1 === Number.MAX_VALUE + 2 // "true"
+Number.MAX_VALUE + 1 === Number.MAX_VALUE + 2; // "true"
 ```
 
 최소치는 이와 다른 결과를 얻게 된다.
@@ -115,14 +115,14 @@ Number.MAX_VALUE + 1 === Number.MAX_VALUE + 2 // "true"
 
 ```js{}
 //  Number.MIN_SAFE_INTEGER는 가장 작은 정수를 말한다.
-Number.MIN_SAFE_INTEGER - 1 === Number.MIN_SAFE_INTEGER - 2 // "true"
+Number.MIN_SAFE_INTEGER - 1 === Number.MIN_SAFE_INTEGER - 2; // "true"
 // 최소값 정수를 소수와 비교할 시에는 정상적으로 작동한다.
-Number.MIN_SAFE_INTEGER - 1.234 === Number.MIN_SAFE_INTEGER - 2.234 // "false"
+Number.MIN_SAFE_INTEGER - 1.234 === Number.MIN_SAFE_INTEGER - 2.234; // "false"
 
 // Number.MIN_VALUE는 가장 작은 부동 소수점을 말한다. (정상작동)
-Number.MIN_VALUE - 1.234 === Number.MIN_VALUE - 2.234 // "false"
+Number.MIN_VALUE - 1.234 === Number.MIN_VALUE - 2.234; // "false"
 // 역시 정상적으로 작동한다.
-Number.MIN_VALUE + 1 === Number.MIN_VALUE + 2 // "false"
+Number.MIN_VALUE + 1 === Number.MIN_VALUE + 2; // "false"
 ```
 
 무한의 경우 Infinity, -Infinity로 표기된다.
@@ -145,19 +145,19 @@ const primeCheckFunction = number => {
   // 시작하기 전 기본 조건 체크
   // (number가 음수나 0이 아니고 1보다 커야 한다.)
   if (number <= 1) {
-    return false
+    return false;
   }
 
   // 2부터 n-1까지의 수를 비교한다.
   for (let i = 2; i < number; i++) {
     if (number % i === 0) {
-      return false
+      return false;
     }
   }
 
   // 최종적으로 n-1까지 나누어지는 값이 없으면 소수이다.
-  return true
-}
+  return true;
+};
 ```
 
 > 시간 복잡도 : $O(n)$
@@ -183,23 +183,23 @@ const primeCheckUseSquared = number => {
   // 시작하기 전 기본 조건 체크
   // (number가 음수나 0이 아니고 1보다 커야한다.)
   if (number <= 1) {
-    return false
+    return false;
   }
   // 소수가 2나 3인 경우를 확인
   if (number <= 3) {
-    return true
+    return true;
   }
 
   // 4부터 n까지의 수를 비교한다.
   for (let i = 4; i * i <= number; i++) {
     if (number % i === 0) {
-      return false
+      return false;
     }
   }
 
   // 최종적으로 n의 제곱근까지 나누어지는 값이 없으면 소수이다.
-  return true
-}
+  return true;
+};
 ```
 
 ### 02-02. 소인수분해
@@ -213,18 +213,18 @@ const primeCheckUseSquared = number => {
 무작위 수의 생성 방법은 Math.random() 내장 함수를 사용하면 된다.
 
 ```js{}
-Math.random() // 0과 1 사이에 부동소수점은 반환한다.
-Math.random() * 10 // 0부터 10까지의 부동소수점
-Math.random() * 15 + 5 // 5부터 20까지의 부동소수점
-Math.random() * 15 - 45 // -45부터 -30지의 부동소수점
+Math.random(); // 0과 1 사이에 부동소수점은 반환한다.
+Math.random() * 10; // 0부터 10까지의 부동소수점
+Math.random() * 15 + 5; // 5부터 20까지의 부동소수점
+Math.random() * 15 - 45; // -45부터 -30지의 부동소수점
 ```
 
 정수를 얻기 위해서는 **Math.floor()**`내림`나 **Math.round()**`반올림` 혹은 **Math.ceil()**`올림`을 이용하면 된다.
 
 ```js{}
-Math.floor(Math.random() * 10) // 0과 9 사이의 정수를 반환한다.
-Math.round(Math.random() * 10) // 0부터 10까지의 정수를 반환한다.
-Math.ceil(Math.random() * 10) // 1부터 10까지의 정수를 반환한다.
+Math.floor(Math.random() * 10); // 0과 9 사이의 정수를 반환한다.
+Math.round(Math.random() * 10); // 0부터 10까지의 정수를 반환한다.
+Math.ceil(Math.random() * 10); // 1부터 10까지의 정수를 반환한다.
 ```
 
 👋

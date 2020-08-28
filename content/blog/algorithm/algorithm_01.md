@@ -54,12 +54,12 @@ draft: false
 ```js{1}
 // 3f(n)의 예시
 const fn3 = num => {
-  let count = 0
+  let count = 0;
   for (let i = 0; i < num * 3; i++) {
-    count += 1
+    count += 1;
   }
-  return count
-}
+  return count;
+};
 ```
 
 상단 코드는 $3\mathcal{f}(n)=3n$이다.
@@ -67,12 +67,12 @@ const fn3 = num => {
 ```js{1}
 // f(n)의 예시
 const fn = num => {
-  let count = 0
+  let count = 0;
   for (let i = 0; i < num; i++) {
-    count += 1
+    count += 1;
   }
-  return count
-}
+  return count;
+};
 ```
 
 다음 코드는 $\mathcal{f}(n)=n$이다.
@@ -94,19 +94,19 @@ const fn = num => {
 ```js{1}
 // f(n)과 g(n)이 합해지는 예시
 const fnAddGn = num => {
-  let count = 0
+  let count = 0;
 
   // f(n)
   for (let i = 0; i < num * 3; i++) {
-    count += 1
+    count += 1;
   }
 
   // g(n)
   for (let i = 0; i < num * 6; i++) {
-    count += 1
+    count += 1;
   }
-  return count
-}
+  return count;
+};
 ```
 
 다음 함수`fnAddGn`의 경우, $f(n)=3n$과 $g(n)=6n$ 두 가지가 실행되어 9n이 된다.  
@@ -129,18 +129,18 @@ const fnAddGn = num => {
 ```js{1}
 // 곱의 법칙 예시
 const multiplyFn = num => {
-  let count = 0
+  let count = 0;
 
   for (let i = 0; i < num * 3; i++) {
-    count += 1
+    count += 1;
 
     for (let i = 0; i < num * 6; i++) {
-      count += 1
+      count += 1;
     }
   }
 
-  return count
-}
+  return count;
+};
 ```
 
 다음 함수`multiplyFn`의 경우, $f(n)=3n*6n$이 된다.  
@@ -160,14 +160,14 @@ const multiplyFn = num => {
 ```js{1}
 // 곱의 법칙 예시
 const multiplyFn = num => {
-  let count = 0
+  let count = 0;
 
   for (let i = 0; i < num * num * num; i++) {
-    count += 1
+    count += 1;
   }
 
-  return count
-}
+  return count;
+};
 ```
 
 다음 함수`multiplyFn`의 경우, $f(n)=n^3$이 된다.  

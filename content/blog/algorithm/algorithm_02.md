@@ -25,8 +25,8 @@ draft: false
 자바스크립트는 연산자가 없이 선언을 할 수 있다.
 
 ```js{}
-foobar = 'testing'
-console.log(foobar) // "testing"
+foobar = 'testing';
+console.log(foobar); // "testing"
 ```
 
 🚨 변수 `foobar`의 타입을 선언하지 않아도 사용이 가능하나 해당 방법은 지양하자.
@@ -36,17 +36,17 @@ console.log(foobar) // "testing"
 이유는 다음과 같다.
 
 ```js{1,4}
-var foobar = 'first'
+var foobar = 'first';
 
 function foobarFn() {
-  foobar = 'second'
-  console.log(foobar)
+  foobar = 'second';
+  console.log(foobar);
 }
 
-foobar = 'thired'
+foobar = 'thired';
 
-foobarFn() // "second"
-console.log(foobar) // "second"
+foobarFn(); // "second"
+console.log(foobar); // "second"
 ```
 
 `Javascript`에서는 **호이스팅**에 의하여 예상치 못하는 결과가 나타날 수 있다.
@@ -54,17 +54,17 @@ console.log(foobar) // "second"
 그래서 `let`이나 `const`의 사용을 권장한다.
 
 ```js{}
-let foo = 'first' // 전역 변수
+let foo = 'first'; // 전역 변수
 
 function foobarFn() {
-  let foo = 'foo' // 지역 변수
-  let bar = 'bar' // 지역 변수
-  console.log(foo)
+  let foo = 'foo'; // 지역 변수
+  let bar = 'bar'; // 지역 변수
+  console.log(foo);
 }
 
-foobarFn() // "foo"
-console.log(foo) // "first"
-console.log(bar) // "ReferenceError: bar is not defined"
+foobarFn(); // "foo"
+console.log(foo); // "first"
+console.log(bar); // "ReferenceError: bar is not defined"
 ```
 
 `let`은 지역 변수로서 값이 변경이 가능하고, `const`는 한번 선언된 값을 변경할 수 없다.
@@ -80,28 +80,28 @@ console.log(bar) // "ReferenceError: bar is not defined"
 여기서 **참/거짓**을 구분하기 위해 `type`을 비교하게 되는데 각 형의 타입은 다음과 같다.
 
 ```js{13, 14}
-let speak = true
-typeof speak // boolean
+let speak = true;
+typeof speak; // boolean
 
-let count = 4
-typeof count // number
+let count = 4;
+typeof count; // number
 
-let name = 'david'
-typeof name // string
+let name = 'david';
+typeof name; // string
 
-let notDefined
-typeof notDefined // undefined
+let notDefined;
+typeof notDefined; // undefined
 
-let none = null
-typeof none // object
+let none = null;
+typeof none; // object
 
-let color = ['blue', 'red', 'green']
-typeof color // object
+let color = ['blue', 'red', 'green'];
+typeof color; // object
 
 let fn1 = function() {
-  console.log('This is function')
-}
-typeof fn1 // function
+  console.log('This is function');
+};
+typeof fn1; // function
 ```
 
 이 중에 조심해야 할 것이 있다.

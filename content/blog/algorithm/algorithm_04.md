@@ -23,7 +23,7 @@ draft: false
 문자에 접근하는 방법은 `.charAt()`을 이용한다.
 
 ```js{}
-'cat'.charAt(1) // "a"를 반환한다.
+'cat'.charAt(1); // "a"를 반환한다.
 ```
 
 `.charAt(index)`는 0부터 시작하여 해당 위치의 인덱스 값을 한다.
@@ -31,9 +31,9 @@ draft: false
 또한 지정한 인덱스 사이의 문자들을 반환하는 `.subString(startIndex, endIndex)`를 사용할 수 있다.
 
 ```js{}
-'superCat'.substring(1, 2) // "u"를 반환한다.
-'superCat'.substring(5, 8) // "Cat"를 반환한다.
-'superCat'.substring(1) // "uperCat" 두 번째 매개변수(endIndex)를 전달하지 않으면 시작 위치부터 끝까지 값을 반환한다.
+'superCat'.substring(1, 2); // "u"를 반환한다.
+'superCat'.substring(5, 8); // "Cat"를 반환한다.
+'superCat'.substring(1); // "uperCat" 두 번째 매개변수(endIndex)를 전달하지 않으면 시작 위치부터 끝까지 값을 반환한다.
 ```
 
 ### 01-02. 문자열 비교
@@ -41,17 +41,17 @@ draft: false
 문자열도 서로 비교가 가능하다.
 
 ```js{}
-const firstWord = 'a'
-const secondWord = 'b'
-console.log(firstWord < secondWord) // 'true'를 반환한다.
+const firstWord = 'a';
+const secondWord = 'b';
+console.log(firstWord < secondWord); // 'true'를 반환한다.
 ```
 
 하지만 서로 다른 길이의 두 문자열을 비교한다면 더 짧은 길이의 문자열 길이만큼만 비교한다.
 
 ```js{}
-const firstWord = 'able'
-const secondWord = 'b'
-console.log(firstWord < secondWord) // 'true'를 반환한다.
+const firstWord = 'able';
+const secondWord = 'b';
+console.log(firstWord < secondWord); // 'true'를 반환한다.
 ```
 
 여기서 **'able'의 'a'**와 **'b'**가 서로 비교되어 secondword가 더 큰 것이 된다.
@@ -63,11 +63,11 @@ console.log(firstWord < secondWord) // 'true'를 반환한다.
 `searchValue`의 값과 같은 문자열이 시작하는 인덱스(0부터 시작)를 반환하는데 일치하는 값이 없으면 **-1**을 반환한다.
 
 ```js{}
-'apple iPhone'.indexOf('apple') // 0을 반환한다.
-'apple iPhone'.indexOf('Galaxy') // -1을 반환한다.
+'apple iPhone'.indexOf('apple'); // 0을 반환한다.
+'apple iPhone'.indexOf('Galaxy'); // -1을 반환한다.
 
-'apple iPhone'.indexOf('iPhone', 6) // 6을 반환한다.
-'apple iPhone'.indexOf('iPhone', 8) // -1을 반환한다.
+'apple iPhone'.indexOf('iPhone', 6); // 6을 반환한다.
+'apple iPhone'.indexOf('iPhone', 8); // -1을 반환한다.
 ```
 
 ### 01-04 문자열 분해
@@ -79,11 +79,11 @@ console.log(firstWord < secondWord) // 'true'를 반환한다.
 `[, limit]`는 시작을 기준으로 몇 개의 Array값을 만들지 결정한다(1부터 시작).
 
 ```js{}
-const tasteWord = 'chocolate-Cookie'
-tasteWord.split('-') // ['chocolate', 'Cookie']
+const tasteWord = 'chocolate-Cookie';
+tasteWord.split('-'); // ['chocolate', 'Cookie']
 
-tasteWord.split('-', 2) // ['chocolate', 'Cookie']
-tasteWord.split('-', 1) // ['chocolate']
+tasteWord.split('-', 2); // ['chocolate', 'Cookie']
+tasteWord.split('-', 1); // ['chocolate']
 ```
 
 ### 01-05 문자열 바꾸기
@@ -108,17 +108,17 @@ changeWord.('hate', 'love') // 'I love chocolate'을 출력한다.
 - `matchAll()` : 일치하는 문자열을 찾는다. 일치하는 문자열(Array)을 반환한다.
 
 ```js{}
-const word = 'I am very very sleepy'
+const word = 'I am very very sleepy';
 
-const searchResult = word.search(/sleep/)
-console.log(searchResult) // '15'를 출력한다.
+const searchResult = word.search(/sleep/);
+console.log(searchResult); // '15'를 출력한다.
 
-const matchResult = word.match(/very/)
-console.log(matchResult)
+const matchResult = word.match(/very/);
+console.log(matchResult);
 // ["very", index: 5, input: "I am very very sleepy", groups: undefined]
 
-const matchAllResult = word.matchAll(/very/g)
-console.log(...matchAllResult)
+const matchAllResult = word.matchAll(/very/g);
+console.log(...matchAllResult);
 // ["very", index: 5, input: "I am very very sleepy", groups: undefined]
 // ["very", index: 10, input: "I am very very sleepy", groups: undefined]
 ```

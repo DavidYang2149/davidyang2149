@@ -36,10 +36,10 @@ draft: false
 
 ```js{}
 // Immutable.js
-const { Map } = require('immutable')
-const map1 = Map({ a: 1, b: 2, c: 3 })
-const map2 = map1.set('b', 50)
-map1.get('b') + ' vs. ' + map2.get('b') // 2 vs. 50
+const { Map } = require('immutable');
+const map1 = Map({ a: 1, b: 2, c: 3 });
+const map2 = map1.set('b', 50);
+map1.get('b') + ' vs. ' + map2.get('b'); // 2 vs. 50
 ```
 
 # Immer
@@ -48,12 +48,12 @@ map1.get('b') + ' vs. ' + map2.get('b') // 2 vs. 50
 
 ```js{}
 // Immer
-const produce = require('immer')
-const map1 = { a: 1, b: 2, c: 3 }
+const produce = require('immer');
+const map1 = { a: 1, b: 2, c: 3 };
 const map2 = produce(map1, draft => {
-  draft.b = 50
-})
-map1.b + ' vs. ' + map2.b // 2 vs. 50
+  draft.b = 50;
+});
+map1.b + ' vs. ' + map2.b; // 2 vs. 50
 ```
 
 👋
