@@ -1,12 +1,12 @@
 module.exports = {
-  title: `David Yang Blog`,
+  title: `David Yang Dev Blogs`,
   description: `DaivdYang2149 Blog ... (by Gatsby)`,
-  author: `[David Yang]`,
-  introduction: `Hello World! This is DavidYang Blog.`,
+  author: `David Yang`,
+  introduction: `Hello World! This is David Yang Dev Blogs.`,
   siteUrl: `https://davidyang2149.netlify.app/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `DavidYang2149`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
@@ -26,5 +26,5 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '', // Add your google analytics tranking ID
-}
+  ga: 'G-9H1EW9ND0M', // Add your google analytics tranking ID
+};
