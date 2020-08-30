@@ -76,4 +76,23 @@ body.light {
     font-size: 12px;
     font-style: italic;
   }
+
+  .aside-table-of-contents {
+    border-left: $light-table-of-contents-background-color solid;
+  }
+
+  .post-table-of-contents {
+    ul li {
+      a {
+        color: $light-table-of-contents-text-color;
+        &:hover,
+        &:focus {
+          color: $light-table-of-contents-focus-color;
+        }
+      }
+      &.active {
+        color: $light-table-of-contents-active-color;
+      }
+    }
+  }
 }

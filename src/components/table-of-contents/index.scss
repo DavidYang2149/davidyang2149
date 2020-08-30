@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.aside-table-of-contents {
+  margin-top: 100px;
+  order: 1;
+  width: 250px;
+  position: fixed;
+  max-height: 90vh;
+  overflow-y: scroll;
+  top: 68px;
+  right: 32px;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+
+  .post-table-of-contents {
+    z-index: 10;
+    ul {
+      padding-left: 16px;
+      list-style: none;
+      margin: 0;
+      li {
+        margin-bottom: 4px;
+        p {
+          margin: 0;
+        }
+        a {
+          text-decoration: none;
+          color: #3d3d3f;
+          font-size: 12px;
+          &:hover,
+          &:focus {
+            color: #f8f9fa;
+          }
+        }
+        &.active {
+          color: #f8f9fa;
+        }
+      }
+    }
+  }
+}

@@ -39,6 +39,12 @@ $light-category-text-color: #666;
 $light-category-highlight-text-color: #636c6e;
 $light-category-item-color: #fff;
 
+// table-of-contents
+$light-table-of-contents-background-color: #e3e5e7;
+$light-table-of-contents-text-color: #282c35;
+$light-table-of-contents-focus-color: #000080;
+$light-table-of-contents-active-color: #400080;
+
 /**
  * @dark theme
  */
@@ -63,3 +69,9 @@ $dark-category-text-color: #d8d7d7;
 
 $dark-category-highlight-border-color: #666;
 $dark-category-highlight-text-color: #fff;
+
+// table-of-contents
+$dark-table-of-contents-background-color: #666;
+$dark-table-of-contents-text-color: #bb72ec;
+$dark-table-of-contents-focus-color: #d8d7d7;
+$dark-table-of-contents-active-color: #000080;
