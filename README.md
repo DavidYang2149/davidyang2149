@@ -16,3 +16,7 @@
 Page Address : https://davidyang2149.netlify.app/  
 Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
 Written by @DavidYang2149
+
+- Site Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1db6bbaa-a0b1-4e40-9a75-481a27e1510f/deploy-status)](https://app.netlify.com/sites/davidyang2149/deploys)
