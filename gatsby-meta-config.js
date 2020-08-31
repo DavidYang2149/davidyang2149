@@ -12,7 +12,16 @@ module.exports = {
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [
+    `devlog`,
+    `web`,
+    `develop`,
+    `frontend`,
+    `javascript`,
+    `react`,
+    `node.js`,
+    `davidyang`,
+  ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'DavidYang2149/davidyang2149', // Your repository for archive comment
