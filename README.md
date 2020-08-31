@@ -11,7 +11,7 @@
 📚 **[Database]** Oracle 11g, MS-SQL.  
 🖨️ **[DevOps]** Git, Bitbucket, JIRA, Confluance, Docker.
 
-## [DavidYang's Blog](https://davidyang2149.netlify.app)
+## [DavidYang's Blog](https://davidyang2149.dev)
 
 Page Address : https://davidyang2149.netlify.app/  
 Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
