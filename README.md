@@ -13,7 +13,7 @@
 
 ## [DavidYang's Blog](https://davidyang2149.dev)
 
-Page Address : https://davidyang2149.netlify.app/  
+Page Address : https://davidyang2149.dev  
 Origin by https://github.com/JaeYeopHan/gatsby-starter-bee  
 Written by @DavidYang2149
 
