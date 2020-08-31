@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://davidyang2149.dev/sitemap.xml
+Host: https://davidyang2149.dev

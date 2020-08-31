@@ -101,5 +101,13 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: metaConfig.host,
+        sitemap: metaConfig.sitemap,
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
   ],
 };

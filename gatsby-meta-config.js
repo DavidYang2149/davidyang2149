@@ -27,4 +27,6 @@ module.exports = {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
   ga: 'UA-176821187-1', // Add your google analytics tranking ID
+  host: 'https://davidyang2149.dev',
+  sitemap: 'https://davidyang2149.dev/sitemap.xml',
 };
