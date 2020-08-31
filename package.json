@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "davidyang",
   "private": true,
-  "description": "Gatsby blog starter template",
-  "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "description": "David Yang Gatsby blog",
+  "version": "1.0.0",
+  "author": "davidyang[YangHongSeok]<davidyang2149@gmail.com>",
   "bugs": {
-    "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
+    "url": "https://github.com/DavidYang2149/davidyang2149/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
@@ -66,9 +66,15 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.3.0"
   },
-  "homepage": "https://github.com/DavidYang2149/davidyang2149.github.io",
+  "homepage": "https://davidyang2149.dev",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "davidyang",
+    "davidyang.dev",
+    "davidyang2149",
+    "davidyang2149.dev",
+    "blog",
+    "devlog"
   ],
   "license": "MIT",
   "main": "n/a",

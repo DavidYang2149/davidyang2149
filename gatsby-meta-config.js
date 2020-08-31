@@ -1,7 +1,7 @@
 module.exports = {
-  title: `David Yang Dev Blogs`,
-  description: `DaivdYang2149 Blog ... (by Gatsby)`,
-  author: `David Yang`,
+  title: `davidyang2149.dev`,
+  description: `davidyang의 블로그입니다. React 프론트엔드 개발자가 되기 위해 공부 중입니다.`,
+  author: `davidyang2149`,
   introduction: `Hello World! This is David Yang Dev Blogs.`,
   siteUrl: `https://davidyang2149.dev`, // Your blog site url
   social: {
