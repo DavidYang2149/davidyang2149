@@ -1,5 +1,5 @@
 ---
-title: Immer_vs_Immutable
+title: Immer vs Immutable
 date: 2020-08-17 13:08:59
 category: javascript
 thumbnail: './images/immerVsImmutable.png'
