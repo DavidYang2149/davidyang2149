@@ -1,5 +1,5 @@
 ---
-title: Next.js_01
+title: Next.js 01
 date: 2020-08-01 10:08:62
 category: react
 thumbnail: './images/nextJs_title.png'

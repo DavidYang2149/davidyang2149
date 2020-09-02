@@ -2,11 +2,11 @@
 title: Docker Setting MongoDB
 date: 2020-07-24 21:07:21
 category: docker
-thumbnail: './images/docker_mongo.png'
+thumbnail: './images/docker-Moby-logo.png'
 draft: false
 ---
 
-![](./images/docker_mongo.png)
+![](./images/docker-Moby-logo.png)
 
 # Docker Setting for MongoDB 🥭
 

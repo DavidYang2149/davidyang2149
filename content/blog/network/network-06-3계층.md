@@ -1,12 +1,12 @@
 ---
-title: Network_06
+title: Network 06. 3계층
 date: 2020-08-14 13:08:91
 category: network
-thumbnail: './images/network_06.png'
+thumbnail: './images/satellit.jpg'
 draft: false
 ---
 
-![](./images/network_06.png)
+![](./images/satellit.jpg)
 
 > `서적` : **'하루 3분 네트워크 교실'**을 읽고 이해한 내용 정리
 

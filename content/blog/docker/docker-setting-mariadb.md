@@ -2,11 +2,11 @@
 title: Docker Setting MariaDB
 date: 2020-07-26 18:07:31
 category: docker
-thumbnail: './images/docker_maria.png'
+thumbnail: './images/docker-Moby-logo.png'
 draft: false
 ---
 
-![](./images/docker_maria.png)
+![](./images/docker-Moby-logo.png)
 
 # Docker Setting for MariaDB ☦️
 

@@ -1,12 +1,12 @@
 ---
-title: Algorithm_02
+title: Algorithm 02. 자바스크립트
 date: 2020-07-29 11:07:84
 category: algorithm
-thumbnail: './images/algorithm_02.png'
+thumbnail: './images/computer-board.jpg'
 draft: false
 ---
 
-![](./images/algorithm_02.png)
+![](./images/computer-board.jpg)
 
 > `서적` : **'자바스크립트로 하는 자료 구조와 알고리즘'**을 읽고 이해한 내용 정리
 

@@ -1,12 +1,12 @@
 ---
-title: Algorithm_04
+title: Algorithm 04. 문자열
 date: 2020-08-13 17:08:94
 category: algorithm
-thumbnail: './images/algorithm_04.png'
+thumbnail: './images/computer-board.jpg'
 draft: false
 ---
 
-![](./images/algorithm_04.png)
+![](./images/computer-board.jpg)
 
 > `서적` : **'자바스크립트로 하는 자료 구조와 알고리즘'**을 읽고 이해한 내용 정리
 

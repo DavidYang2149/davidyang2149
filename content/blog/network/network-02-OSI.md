@@ -1,12 +1,12 @@
 ---
-title: Network_02
+title: Network 02. OSI
 date: 2020-07-30 15:07:57
 category: network
-thumbnail: './images/network_02.png'
+thumbnail: './images/satellit.jpg'
 draft: false
 ---
 
-![](./images/network_02.png)
+![](./images/satellit.jpg)
 
 > `서적` : **'하루 3분 네트워크 교실'**을 읽고 이해한 내용 정리
 

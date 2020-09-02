@@ -1,5 +1,5 @@
 ---
-title: Javascript 01
+title: Javascript 01.
 date: 2020-08-26 15:08:37
 category: javascript
 thumbnail: './images/javascript.png'

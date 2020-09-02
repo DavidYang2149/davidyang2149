@@ -1,5 +1,5 @@
 ---
-title: React_01
+title: React 01
 date: 2020-08-19 21:08:46
 category: react
 thumbnail: './images/react_01.png'

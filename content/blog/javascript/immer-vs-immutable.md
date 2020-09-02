@@ -1,5 +1,5 @@
 ---
-title: Immer vs Immutable
+title: Immer vs Immutable 차이점
 date: 2020-08-17 13:08:59
 category: javascript
 thumbnail: './images/immerVsImmutable.png'
