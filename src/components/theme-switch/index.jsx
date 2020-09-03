@@ -55,7 +55,7 @@ function toggleTheme(theme) {
 }
 
 export const ThemeSwitch = () => {
-  const themeStorage = getData() === THEME.LIGHT ? false : true
+  const themeStorage = getData() === THEME.DARK ? true : false
   const [checked, setChecked] = useState(themeStorage)
 
   const handleChange = (checked) => {
