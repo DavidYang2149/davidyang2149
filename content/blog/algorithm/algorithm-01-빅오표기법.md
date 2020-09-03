@@ -8,6 +8,8 @@ draft: false
 
 ![](./images/computer-board.jpg)
 
+자바스크립트 알고리즘 빅오표기법.
+
 > `서적` : **'자바스크립트로 하는 자료 구조와 알고리즘'**을 읽고 이해한 내용 정리
 
 # Algorithm Study(빅오 표기법) - 01. 😃

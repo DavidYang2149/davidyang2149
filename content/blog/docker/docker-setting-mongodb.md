@@ -8,11 +8,13 @@ draft: false
 
 ![](./images/docker-Moby-logo.png)
 
+docker setting mongodb · 도커 mongodb 세팅하기.
+
 # Docker Setting for MongoDB 🥭
 
 ## 01. Docker 컨테이너에서 MongoDB 설정하기(준비물)
 
-- MacOS 기준 / Docker 설치
+- MacOS 기준 / Docker 설치.
 
 ## 02. Mongo 이미지 다운로드 & 설정
 

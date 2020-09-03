@@ -8,11 +8,13 @@ draft: false
 
 ![](./images/docker-Moby-logo.png)
 
+docker setting mariadb · 도커 mariadb 세팅하기.
+
 # Docker Setting for MariaDB ☦️
 
 ## 01. Docker 컨테이너에서 MariaDB 설정하기(준비물)
 
-- MacOS 기준 / Docker 설치
+- MacOS 기준 · Docker 설치.
 
 ## 02. Maria 이미지 다운로드 & 설정
 

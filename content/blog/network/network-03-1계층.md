@@ -8,6 +8,8 @@ draft: false
 
 ![](./images/satellit.jpg)
 
+네트워크 1계층.
+
 > `서적` : **'하루 3분 네트워크 교실'**을 읽고 이해한 내용 정리
 
 # Network Study - 03. 😃

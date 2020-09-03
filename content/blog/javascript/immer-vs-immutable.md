@@ -8,6 +8,8 @@ draft: false
 
 ![](./images/immerVsImmutable.png)
 
+Immer vs Immutable 차이점.
+
 > `정보` : **'immutable'**을 공부한 내용에 대한 기록
 
 # Immutable ❓
