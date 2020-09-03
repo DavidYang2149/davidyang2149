@@ -6,6 +6,8 @@ import { THEME } from '../../constants'
 
 import './index.scss'
 
+import { setData, getData } from '../../utils/storage'
+
 const MoonIcon = () => {
   return (
     <svg width="24" height="24">
@@ -40,20 +42,23 @@ function toggleTheme(theme) {
     case THEME.LIGHT: {
       Dom.addClassToBody(THEME.LIGHT)
       Dom.removeClassToBody(THEME.DARK)
+      setData(THEME.LIGHT)
       break
     }
     case THEME.DARK: {
       Dom.addClassToBody(THEME.DARK)
       Dom.removeClassToBody(THEME.LIGHT)
+      setData(THEME.DARK)
       break
     }
   }
 }
 
 export const ThemeSwitch = () => {
-  const [checked, setChecked] = useState(false)
+  const themeStorage = getData() === THEME.LIGHT ? false : true
+  const [checked, setChecked] = useState(themeStorage)
 
-  const handleChange = checked => {
+  const handleChange = (checked) => {
     const theme = getTheme(checked)
 
     setChecked(checked)
@@ -61,7 +66,7 @@ export const ThemeSwitch = () => {
   }
 
   useEffect(() => {
-    const checked = Dom.hasClassOfBody(THEME.DARK)
+    const checked = Dom.hasClassOfBody(THEME.DARK) || themeStorage
 
     handleChange(checked)
   }, [])
