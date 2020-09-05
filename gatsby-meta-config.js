@@ -1,5 +1,5 @@
 module.exports = {
-  title: `davidyang2149.dev`,
+  title: `DavidYang`,
   description: `davidyang의 블로그입니다. React 프론트엔드 개발자가 되기 위해 공부 중입니다.`,
   author: `davidyang2149`,
   introduction: `Hello World! This is David Yang Dev Blogs.`,
@@ -38,4 +38,4 @@ module.exports = {
   ga: 'UA-176821187-1', // Add your google analytics tranking ID
   host: 'https://davidyang2149.dev',
   sitemap: 'https://davidyang2149.dev/sitemap.xml',
-};
+}
