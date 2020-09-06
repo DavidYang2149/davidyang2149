@@ -30,7 +30,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: '',
+    buyMeACoffeeId: 'wnoreqp',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
@@ -38,4 +38,4 @@ module.exports = {
   ga: 'UA-176821187-1', // Add your google analytics tranking ID
   host: 'https://davidyang2149.dev',
   sitemap: 'https://davidyang2149.dev/sitemap.xml',
-}
+};
