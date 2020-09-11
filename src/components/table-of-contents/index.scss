@@ -1,11 +1,11 @@
 @import '../../styles/variables.scss';
 
 .aside-table-of-contents {
-  margin-top: 100px;
+  margin-top: 30px;
   order: 1;
   width: 250px;
   position: fixed;
-  max-height: 90vh;
+  max-height: 70vh;
   overflow-y: scroll;
   top: 68px;
   right: 32px;
