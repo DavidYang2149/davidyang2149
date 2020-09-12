@@ -94,7 +94,7 @@ tasteWord.split('-', 1); // ['chocolate']
 
 ```js{}
 const changeWord = 'I hate chocolate';
-changeWord.('hate', 'love') // 'I love chocolate'을 출력한다.
+changeWord.replace('hate', 'love'); // 'I love chocolate'을 출력한다.
 ```
 
 ## 02. 정규 표현식
