@@ -1,5 +1,5 @@
 ---
-title: 프론트엔드-개발환경 - Babel
+title: 프론트엔드 개발환경 - Babel
 date: 2020-09-12 09:09:31
 category: front-end
 thumbnail: './images/200912-babel-icon.png'
