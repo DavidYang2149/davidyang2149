@@ -62,26 +62,18 @@ $ vi ~/.gitmessage.txt
 커스텀 템플릿을 입력하고 저장한다.
 
 ```sh{}
+
 # --- 제목(title) - 50자 이내로 ---
 # <타입(type)> <제목(title)>
 # 예시(ex) : Docs(Add) Commit docs Add
-
-# 한 줄 띄우기
-
-# 한 줄 띄우기
 # --- 본문(content) - 72자마다 줄바꾸기  ---
 # 예시(ex) :
 # - Workflow
 # 1. 커밋 메시지에 대한 문서 제작 추가.
 # 2. commit message docs add.
-
-# 한 줄 띄우기
-
-# 한 줄 띄우기
 # --- 꼬리말(footer) ---
 # <타입(type)> <이슈 번호(issue number)>
 # 예시(ex) : Fix #122
-
 # --- COMMIT END ---
 # <타입> 리스트
 #   init    : 초기화
