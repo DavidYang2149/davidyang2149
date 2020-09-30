@@ -1,7 +1,7 @@
 ---
 title: Gatsby Customizing Dark Mode
 date: 2020-09-04 14:09:91
-category: gatsby
+category: front-end
 thumbnail: './images/Gatsby_Monogram.png'
 draft: false
 ---
