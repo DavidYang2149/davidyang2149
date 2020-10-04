@@ -4,6 +4,8 @@
 
 [![Davidyang's github stats](https://github-readme-stats.vercel.app/api?username=davidyang2149&theme=buefy&show_icons=true)](https://github.com/DavidYang2149)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davidyang2149&layout=compact)](https://github.com/DavidYang2149)
+
 ## Hello World! I'm DavidYang2149
 
 🕹️ **[Front-end]** Javascript, React, Redux, jQuery.  
