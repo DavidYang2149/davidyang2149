@@ -10,7 +10,8 @@ draft: false
 
 프론트엔드 개발환경 - NPM
 
-> `정보` : [**김정환**](https://jeonghwan-kim.github.io/series/2019/12/09/frontend-dev-env-npm.html#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AA%85%EB%A0%B9%EC%96%B4)님의 [프론트엔드 개발환경의 이해와 실습](https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD)을 공부하고 정리한 내용.
+> `정보` : [**김정환**](https://jeonghwan-kim.github.io/series/2019/12/09/frontend-dev-env-npm.html#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AA%85%EB%A0%B9%EC%96%B4)님의 [프론트엔드 개발환경의 이해와 실습](https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD)을 공부하고 정리한 내용.  
+> 해당 내용은 [**김정환**](https://jeonghwan-kim.github.io/series/2019/12/09/frontend-dev-env-npm.html#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AA%85%EB%A0%B9%EC%96%B4)님의 블로그 내용을 토대로 재작성되었으며 내용을 추가하거나 일부 변경했습니다.
 
 # NPM ❓
 
