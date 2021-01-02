@@ -44,9 +44,7 @@ const audioPicker = tagPicker("audio"); // audio[data-key="${key}"]
 
 ### Element.classList
 
-[classList](https://developer.mozilla.org/ko/docs/Web/API/Element/classList)
-
-`Element.classList`를 이용하여 쉽게 클래스를 추가(add), 삭제(remove), 변경(toggle)할 수 있다.
+[Element.classList](https://developer.mozilla.org/ko/docs/Web/API/Element/classList)를 이용하여 쉽게 클래스를 추가(add), 삭제(remove), 변경(toggle)할 수 있다.
 
 ```js
 const div = divPicker(key);
@@ -58,7 +56,7 @@ setTimeout(() => div.classList.remove("playing"), 100);
 
 ### audio
 
-`[audio](https://developer.mozilla.org/ko/docs/Web/HTML/Element/audio)`를 사용할 때 `currentTime`을 0으로 변경하면 지연없이 바로 실행이 가능하다.
+[audio](https://developer.mozilla.org/ko/docs/Web/HTML/Element/audio)를 사용할 때 `currentTime`을 0으로 변경하면 지연없이 바로 실행이 가능하다.
 
 ```js
 const audio = audioPicker(key);
