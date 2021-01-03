@@ -65,4 +65,7 @@ audio.currentTime = 0;  // 재생 딜레이를 0으로 변경한다.
 audio.play();
 ```
 
+### keydown
+
+
 👋
