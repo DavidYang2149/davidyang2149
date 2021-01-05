@@ -67,5 +67,15 @@ audio.play();
 
 ### keydown
 
+키보드를 입력할 때는 [keydown](https://developer.mozilla.org/ko/docs/Web/API/Document/keydown_event)을 사용하자.
+
+> keypress는 *Deprecated* 되었음.  
+> key이벤트에서 *keyCode*도 *Deprecated* 되었음.
+
+```js
+window.addEventListener("keydown", (e) => {
+  kickTheDrum(e.key);
+});
+```
 
 👋
