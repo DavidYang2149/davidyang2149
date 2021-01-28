@@ -18,9 +18,9 @@ David Yang입니다.
 
 ## Skill
 
-🕹️ Frontend: Javascript, React, Redux, Jest, HTML/CSS
-💻 Back-end: Node.js(Express), ASP.NET
-📚 Database: MySQL, MS-SQL
+🕹️ Frontend: Javascript, React, Redux, Jest, HTML/CSS  
+💻 Back-end: Node.js(Express), ASP.NET  
+📚 Database: MySQL, MS-SQL  
 🖨️ DevOps: Git, JIRA, Confluance, Bitbucket
 
 ## Work Experience
