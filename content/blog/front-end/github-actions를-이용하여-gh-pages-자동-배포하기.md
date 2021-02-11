@@ -25,7 +25,7 @@ $ npm install -D gh-pages
 
 그리고 package.json에서 다음 예시처럼 설정해준다.
 
-```json
+```json{4}
 "scripts": {
     "build": "webpack --mode production",
     "predeploy": "npm run build",
@@ -37,7 +37,7 @@ $ npm install -D gh-pages
 
 `predeploy` : **pre**가 붙으면 **내용**을 실행하기 전에(여기서는 **deploy**) 먼저 실행한다. `npm run deploy`를 입력하면 먼저 **predeploy**가 실행되어 결과물을 만든다.
 
-`deploy` : `gh-pages -d dist`를 실행하여 github pages에 웹페이지를 배포한다. 이때 **-d {경로}**의 **경로**는 실제 배포되는 위치로 설정한다(dist, public 등).
+`deploy` : `gh-pages -d dist`를 실행하여 github pages에 웹페이지를 배포한다. 이때 **-d {경로}**의 **경로**는 실제 배포되는 위치로 설정한다`(dist, public, build, ...)`.
 
 이렇게 작업을 완료하고 Github 저장소로 Push하자.
 그리고 해당 저장소의 Settings로 가서 하단을 살펴보면 Github Pages가 있다.
