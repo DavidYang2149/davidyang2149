@@ -30,7 +30,7 @@ draft: false
 
 #### getBoundingClientRect
 
-[getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)는 DOM Element의 위치를 구할 떄 사용한다(과제 22번에서도 사용했음).
+[getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)는 DOM Element의 위치를 구할 때 사용한다(과제 22번에서도 사용했음).
 
 #### 참조
 
