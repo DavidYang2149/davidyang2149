@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 09 - Dev Tools Domination
-date: 2021-01-18 11:01:19
+date: 2020-01-18 11:01:19
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

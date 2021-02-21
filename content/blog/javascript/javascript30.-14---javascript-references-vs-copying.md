@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 14 - JavaScript References VS Copying
-date: 2021-01-25 23:01:77
+date: 2020-01-25 23:01:77
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

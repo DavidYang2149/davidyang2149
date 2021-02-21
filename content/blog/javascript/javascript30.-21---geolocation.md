@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 21 - Geolocation
-date: 2021-02-06 11:02:16
+date: 2020-02-06 11:02:16
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

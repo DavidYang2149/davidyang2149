@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 22 - Follow Along Link Highlighter
-date: 2021-02-07 21:02:80
+date: 2020-02-07 21:02:80
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

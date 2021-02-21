@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 15 - LocalStorage
-date: 2021-01-29 16:01:26
+date: 2020-01-29 16:01:26
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

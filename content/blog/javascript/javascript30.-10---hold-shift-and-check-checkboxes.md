@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 10 - Hold Shift and Check Checkboxes
-date: 2021-01-19 12:01:80
+date: 2020-01-19 12:01:80
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

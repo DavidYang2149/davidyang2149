@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 16 - Mouse Move Shadow
-date: 2021-02-02 22:02:39
+date: 2020-02-02 22:02:39
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

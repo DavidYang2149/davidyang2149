@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 11 - Custom Video Player
-date: 2021-01-20 10:01:89
+date: 2020-01-20 10:01:89
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

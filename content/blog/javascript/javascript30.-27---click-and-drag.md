@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 27 - Click and Drag
-date: 2021-02-12 12:02:07
+date: 2020-02-12 12:02:07
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

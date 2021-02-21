@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 18 - Adding Up Times with Reduce
-date: 2021-02-03 09:02:93
+date: 2020-02-03 09:02:93
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

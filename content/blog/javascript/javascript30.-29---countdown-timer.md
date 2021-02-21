@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 29 - Countdown Timer
-date: 2021-02-14 15:02:37
+date: 2020-02-14 15:02:37
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

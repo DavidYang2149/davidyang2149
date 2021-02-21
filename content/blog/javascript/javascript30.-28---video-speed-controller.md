@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 28 - Video Speed Controller
-date: 2021-02-13 09:02:19
+date: 2020-02-13 09:02:19
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

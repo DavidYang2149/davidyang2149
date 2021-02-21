@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 19 - Webcam Fun
-date: 2021-02-04 21:02:37
+date: 2020-02-04 21:02:37
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

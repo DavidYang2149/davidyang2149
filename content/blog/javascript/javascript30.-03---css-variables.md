@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 03 - CSS Variables
-date: 2021-01-05 13:01:69
+date: 2020-01-05 13:01:69
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false
@@ -29,7 +29,7 @@ draft: false
 
 ### CSS 변수
 
-[CSS var()](https://developer.mozilla.org/ko/docs/Web/CSS/var())은 변수를 설정할 수 있다.
+[CSS var()](<https://developer.mozilla.org/ko/docs/Web/CSS/var()>)은 변수를 설정할 수 있다.
 
 이 때 `root` 단위에서 값을 설정하고 변경할 수 있다.
 
@@ -53,11 +53,17 @@ img {
 
 ```js
 spacing.addEventListener('mousemove', (e) => {
-  document.documentElement.style.setProperty('--spacing', spacing.value + e.target.attributes['data-sizing'].value);
-      });
+  document.documentElement.style.setProperty(
+    '--spacing',
+    spacing.value + e.target.attributes['data-sizing'].value
+  );
+});
 
 blur.addEventListener('mousemove', (e) => {
-  document.documentElement.style.setProperty('--blur', blur.value + e.target.attributes['data-sizing'].value);
+  document.documentElement.style.setProperty(
+    '--blur',
+    blur.value + e.target.attributes['data-sizing'].value
+  );
 });
 
 base.addEventListener('change', (e) => {

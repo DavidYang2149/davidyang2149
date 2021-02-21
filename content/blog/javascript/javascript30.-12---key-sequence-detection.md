@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 12 - Key Sequence Detection
-date: 2021-01-25 21:01:31
+date: 2020-01-25 21:01:31
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

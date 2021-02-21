@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 06 - Type Ahead
-date: 2021-01-07 21:01:29
+date: 2020-01-07 21:01:29
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

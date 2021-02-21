@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 01 - JavaScript Drum Kit
-date: 2021-01-02 11:01:86
+date: 2020-01-02 11:01:86
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

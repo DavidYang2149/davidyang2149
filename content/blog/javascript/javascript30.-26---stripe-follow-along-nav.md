@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 26 - Stripe Follow Along Nav
-date: 2021-02-11 18:02:55
+date: 2020-02-11 18:02:55
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

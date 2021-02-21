@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 30 - Whack A Mole
-date: 2021-02-14 16:02:51
+date: 2020-02-14 16:02:51
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

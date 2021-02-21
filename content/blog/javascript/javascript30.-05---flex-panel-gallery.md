@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 05 - Flex Panel Gallery
-date: 2021-01-07 12:01:82
+date: 2020-01-07 12:01:82
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

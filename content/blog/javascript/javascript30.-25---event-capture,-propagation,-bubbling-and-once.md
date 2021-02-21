@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 25 - Event Capture, Propagation, Bubbling and Once
-date: 2021-02-10 16:02:88
+date: 2020-02-10 16:02:88
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

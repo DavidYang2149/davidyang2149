@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 08 - Fun with HTML5 Canvas
-date: 2021-01-14 19:01:79
+date: 2020-01-14 19:01:79
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

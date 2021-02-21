@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 24 - Sticky Nav
-date: 2021-02-09 21:02:02
+date: 2020-02-09 21:02:02
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

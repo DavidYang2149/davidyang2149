@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 17 - Sort Without Articles
-date: 2021-02-02 22:02:64
+date: 2020-02-02 22:02:64
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

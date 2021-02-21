@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 04 - Array Cardio Day 1
-date: 2021-01-05 23:01:12
+date: 2020-01-05 23:01:12
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 02 - JS and CSS Clock
-date: 2021-01-03 11:01:01
+date: 2020-01-03 11:01:01
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false
@@ -36,10 +36,11 @@ draft: false
 [style](https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/style) 입력하기.
 
 ```js
-secondHand.style.height = "3px";
-hourHand.style.height = "8px";
+secondHand.style.height = '3px';
+hourHand.style.height = '8px';
 
-const changeDegrees = target => degree => (target.style.transform = `rotate(${degree}deg)`);
+const changeDegrees = (target) => (degree) =>
+  (target.style.transform = `rotate(${degree}deg)`);
 ```
 
 ### new Date

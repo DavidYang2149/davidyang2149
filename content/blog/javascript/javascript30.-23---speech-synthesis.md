@@ -1,6 +1,6 @@
 ---
 title: Javascript30. 23 - Speech Synthesis
-date: 2021-02-08 21:02:28
+date: 2020-02-08 21:02:28
 category: javascript
 thumbnail: './images/javascript30.png'
 draft: false
