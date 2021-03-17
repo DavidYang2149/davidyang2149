@@ -1,15 +1,18 @@
 ## Hello World! I'm DavidYang2149
 
-🕹️ **[Front-end]** Javascript, React, Redux.  
-💻 **[Back-end]** Node.js(Express), ASP.NET.  
-📚 **[Database]** MySQL, MS-SQL.  
-🖨️ **[DevOps]** Git, Bitbucket, JIRA, Confluance, Docker.
+🕹️ **[Frontend]** Javascript, React, Redux.  
+💻 **[Backend]** Node.js(Express), ASP.NET.  
+📚 **[Database]** MySQL, MS-SQL, Firestore.
 
 ## My Tech-Blog
 
 https://davidyang2149.dev
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1db6bbaa-a0b1-4e40-9a75-481a27e1510f/deploy-status)](https://app.netlify.com/sites/davidyang2149/deploys)
+
+## My Baking Recipe (Side Project)
+
+[My Baking Recipe](https://davidyang2149.github.io/MyBakingRecipe)
 
 ## Github Status
 
