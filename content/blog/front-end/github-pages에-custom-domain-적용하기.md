@@ -49,6 +49,12 @@ davidyang2149.github.io
 
 이를 해결하기 위해서 `CNAME` 파일을 추가한 뒤 **Custom domain**의 주소를 적어준다.
 
+> CNAME?
+>
+> Canonical Name record의 준말로 하나의 도메인 이름을 다른 이름으로 매핑시키는 도메인 네임 시스템(DNS)의 리소스 레코드의 일종이다.
+>
+> [참조](https://ko.wikipedia.org/wiki/CNAME_%EB%A0%88%EC%BD%94%EB%93%9C)
+
 ![](./images/210403-03-CNAME.png)
 
 그리고 **package.json**으로 들어가서 `predeploy`에 **cp CNAME ./build**을 추가해준다.
