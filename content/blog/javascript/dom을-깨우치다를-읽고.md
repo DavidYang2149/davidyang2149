@@ -346,10 +346,8 @@ element에서 자식 노드를 확인하려면 children 속성을 이용하면 �
 
 ## Dom Event
 
-해당 내용은 추가 예정.
+이벤트 작성 중
 
-추가 참조
-
-- https://devbox.tistory.com/entry/JavaScript-Node-%EA%B0%9D%EC%B2%B4#recentEntries
+[참조](https://devbox.tistory.com/entry/JavaScript-Node-%EA%B0%9D%EC%B2%B4#recentEntries)
 
 👋
