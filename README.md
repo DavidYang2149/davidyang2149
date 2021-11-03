@@ -12,8 +12,6 @@
 ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white)
 ![](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white)
 ![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node-dot-js&logoColor=white)
-![](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white)
-![](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 
 ### My Tech-Blog
 
