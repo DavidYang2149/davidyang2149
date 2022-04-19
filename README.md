@@ -6,11 +6,9 @@
 - 페어 프로그래밍을 좋아합니다. 
 - ‘작은 단위로 여러 번 반복하여 더 좋은 방법을 찾는다’는 생각을 가지고 있습니다.
 
-### My Tech-Blog
+### Tech-Blog
 
 https://davidyang2149.dev
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1db6bbaa-a0b1-4e40-9a75-481a27e1510f/deploy-status)](https://app.netlify.com/sites/davidyang2149/deploys)
 
 ### My Baking Recipe (Side Project)
 
