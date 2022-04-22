@@ -12,7 +12,7 @@ https://davidyang2149.dev
 
 ### My Baking Recipe (Side Project)
 
-[https://mybakingrecipe.firebaseapp.com/](https://mybakingrecipe.app)
+[https://mybakingrecipe.app](https://mybakingrecipe.app)
 
 ### Github Status
 
