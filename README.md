@@ -20,4 +20,4 @@ https://davidyang2149.dev
 
 ### Commit Graph
 
-[![Davidyang's github activity graph](https://activity-graph.herokuapp.com/graph?username=davidyang2149&react)](https://github.com/davidyang2149/github-readme-activity-graph)
+[![Davidyang's github activity graph](https://activity-graph.herokuapp.com/graph?username=davidyang2149&theme=react)](https://github.com/davidyang2149)
