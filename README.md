@@ -17,7 +17,3 @@ https://davidyang2149.dev
 ### GitHub Status
 
 [![Davidyang's github stats](https://github-readme-stats.vercel.app/api?username=davidyang2149&theme=buefy&show_icons=true)](https://github.com/DavidYang2149)
-
-### Commit Graph
-
-[![Davidyang's github activity graph](https://activity-graph.herokuapp.com/graph?username=davidyang2149&theme=react)](https://github.com/davidyang2149)
