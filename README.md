@@ -8,7 +8,7 @@
 
 ### Tech-Blog
 
-https://davidyang2149.dev
+https://davidyang2149.github.io
 
 ### My Baking Recipe (Side Project)
 
