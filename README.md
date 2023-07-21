@@ -10,10 +10,6 @@
 
 https://davidyang2149.github.io
 
-### My Baking Recipe (Side Project)
-
-[https://mybakingrecipe.app](https://mybakingrecipe.app)
-
 ### GitHub Status
 
 [![Davidyang's github stats](https://github-readme-stats.vercel.app/api?username=davidyang2149&theme=buefy&show_icons=true)](https://github.com/DavidYang2149)
